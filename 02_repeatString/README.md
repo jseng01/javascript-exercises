@@ -2,7 +2,7 @@
 
 Write a function that simply repeats the string a given number of times:
 
-```javascript
+```js
 repeatString('hey', 3) // returns 'heyheyhey'
 ```
 
