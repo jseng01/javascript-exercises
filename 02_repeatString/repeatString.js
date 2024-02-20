@@ -1,8 +1,8 @@
 let string = 'hey';
-let number = 3;
-let newString = '';
+let number = 0;
 function repeatString(string, number){    
-    for (let i = 0; i < number; i++){
+    let newString = '';
+    for (let i = 1; i <= number; i++){
     newString += string;
 }
 return newString
