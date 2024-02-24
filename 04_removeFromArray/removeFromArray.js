@@ -1,8 +1,7 @@
-const removeFromArray = function(array, ...args ) { 
-for (const item of array) {
-    if (item == args){
-     let position = array.indexOf(item);
-     array.splice(position, 1)
+let removeFromArray = function(array, ...args ) { 
+const sortedArray= [];
+for (let item of args) {
+    
 }
 
    else{
