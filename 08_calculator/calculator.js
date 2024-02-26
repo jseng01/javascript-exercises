@@ -14,16 +14,29 @@ const sum = function(toSum) {
   )
   return total;
 }
-const multiply = function() {
-
+const multiply = function(toMulti) {
+  let total = 1;
+  toMulti.forEach(element => {
+   total *= element;}
+   )
+   return total;
 };
 
-const power = function() {
-	
+const power = function(x, y) {
+	let z = x ** y;
+  return z;
 };
 
-const factorial = function() {
-	
+const factorial = function(x) {
+  let total = 1;
+  let toFactor = [];
+  for (let i=1; i <= x; i++){
+    toFactor.push(i);
+  }
+  toFactor.forEach(element =>{
+    total *= element;
+  })
+  return total;
 };
 
 // Do not edit below this line
